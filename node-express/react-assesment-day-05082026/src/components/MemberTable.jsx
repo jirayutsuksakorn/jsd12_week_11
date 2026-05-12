@@ -28,7 +28,7 @@ const MemberTable = ({ members, onDelete, showActions = false, loading, error })
           {members.map((member) => (
             <tr key={member.id}>
               <td>{member.name}</td>
-              <td>{member.lastName}</td>
+              <td>{member.lastname}</td>
               <td>{member.position}</td>
               {showActions && (
                 <td>
