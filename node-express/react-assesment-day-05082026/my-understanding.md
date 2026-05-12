@@ -1,0 +1,1 @@
+ผมแบ่ง UI ออกเป็น component ย่อยๆ แต่ละตัวทำหน้าที่เดียว เช่น Header, MemberTable, AdminSection เป็นต้น ผมเก็บ state หลักไว้ที่ App แล้วส่งลงไปผ่าน props เวลาผมดึงข้อมูลจาก API ผมใช้ useEffect คู่กับ async/await เพื่อป้องกัน infinite loop และไม่ให้ UI ค้าง ตอนนี้ผมยังอยากพัฒนาต่ออีก เช่น เพิ่ม TypeScript, custom hooks และ React Router ครับ
